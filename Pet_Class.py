@@ -11,15 +11,17 @@ class Pet:
     # Set the name of the pet
     def set_name (self, name):
         self.__name(input("What is the name of your pet?"))
-        return name
+        return self.__name
     
     # Set the type of animal
     def set_animal_type (self, animal_type):
         self.__animal_type(input("What kind of animal is your pet?"))
+        return self.__animal_type
     
     # Set the age of the pet
     def set_age (self, age):
         self.__age(input("How old is your pet?"))
+        return self.__age
     
     # Getter
     #Get the name of the pet
@@ -27,9 +29,9 @@ class Pet:
         return self.__name
     
     # Get the animal type of the pet
-    def set_animal_type (self):
+    def get_animal_type (self):
         return self.__animal_type
     
     # Get the age of the pet
-    def set_age (self):
+    def get_age (self):
         return self.__age
