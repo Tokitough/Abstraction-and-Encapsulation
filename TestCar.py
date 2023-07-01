@@ -4,13 +4,13 @@ from Car_Class import Car
 Zoomy = Car(2004, "Toyota", 0)
 
 # Call accelerate 5 times
-print("Accelerating Zoomy")
+print("\nAccelerating Zoomy\n")
 for i in range(5):
     Zoomy.accelerate()
     print("Zoomy is going", Zoomy.get_speed(), "km/h")
 
 # Call brake 5 times
-print("Braking")
+print("\nBraking\n")
 for i in range(5):
     Zoomy.brake()
     print("Zoomy is going", Zoomy.get_speed(), "km/h")
