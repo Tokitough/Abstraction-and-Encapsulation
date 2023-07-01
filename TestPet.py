@@ -18,6 +18,7 @@ print("\u001B[36m=" * 35)
 age = input("\u001B[37mHow old is your pet (in years)?\n")
 pet.set_age(age)
 
+# Display Pet Information
 print("\n" + "\u001B[36m-" * 7 + "\u001B[34mPet information" + "\u001B[36m-" * 7)
 print("\u001B[36m=" * 30)
 print("\u001B[37mName:", pet.get_name())
