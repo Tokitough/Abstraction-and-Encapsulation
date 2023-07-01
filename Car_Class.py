@@ -9,13 +9,13 @@ class Car:
 
     # Add 5 to the speed
     def accelerate (self):
-        self.__speed + 5
+        self.__speed += 5
         return self.__speed
     
     # Subtract 5 to the speed
     def brake (self):
         if self.__speed >= 5:
-            self.__speed - 5
+            self.__speed -= 5
         else: self.__speed = 0
         return self.__speed
     
