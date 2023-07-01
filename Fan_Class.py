@@ -1,3 +1,4 @@
+# Fan class
 class Fan:
     # Constants
     SLOW = 1
